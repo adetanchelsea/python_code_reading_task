@@ -1,0 +1,6 @@
+[
+    {"date": "2024-05-01", "amount": -50.25, "category": "groceries"},
+    {"date": "2024-05-02", "amount": 2000.00, "category": "salary"},
+    {"date": "2024-05-03", "amount": -100.00, "category": "utilities"},
+    {"date": "2024-05-04", "amount": -25.75, "category": "transport"}
+]
