@@ -21,4 +21,3 @@ You are to add these features to the project:
     - Number of transactions per category
 - Add a new field (e.g., description) to the transactions and update the code accordingly.
 - Refactor the code if you find anything you woud like to change. (Optional)
-
