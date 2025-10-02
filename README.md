@@ -38,7 +38,7 @@ Otherwise, it creates a Budget Analyzer and prints a financial summary.<br>
 In summary, the main() function runs the whole process from loading data to displaying the budget summary.
 
 ### QUESTION 3: DRAW A FLOWCHART OF HOW THE CODE WORKS
-[image](flowchart.svg)
+![image](flowchart.svg)
 
 The flowchart illustrates the overall process of how the budget analysis code works.
 - The program starts by calling the main() function.
