@@ -16,11 +16,12 @@ class Transaction:
         self.date = datetime.strptime(date, "%Y-%m-%d")
         self.amount = amount
         self.category = category
+        
         # Adding a new attribute, description
-        self.description = description
+        self.description = description or "No description"
 
     def __repr__(self):
-        return f"<Transaction {self.amount} {self.category} on {self.date.date()}>"  # noqa: E501
+        return f"<Transaction {self.amount} {self.category} on {self.date.date()} - {self.description}>"  # noqa: E501
 
     def is_expense(self):
         return self.amount < 0
